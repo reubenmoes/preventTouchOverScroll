@@ -16,7 +16,7 @@
       var newY = e.originalEvent.changedTouches[0].screenY;
 
       //scrolling viewport down! are we at the bottom?
-      if(newY < y && $element.height() + $element.scrollTop() >= element.scrollHeight){
+      if(newY < y && $element.outerHeight() + $element.scrollTop() >= element.scrollHeight){
         //debugger;
 
         e.preventDefault();

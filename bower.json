@@ -1,5 +1,5 @@
 {
-  "name": "preventTouchOverScroll",
+  "name": "prevent-touch-over-scroll",
   "description": "A Jquery plugin to stop parent/body scrolling on overflow: auto divs",
   "main": "jquery.preventTouchOverScroll.js",
   "ignore": [ ],

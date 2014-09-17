@@ -3,6 +3,16 @@
   "description": "A Jquery plugin to stop parent/body scrolling on overflow: auto divs",
   "main": "jquery.preventTouchOverScroll.js",
   "ignore": [ ],
-  "dependencies": { },
+  "dependencies": {
+    "jquery": ">=1.2"
+  },
+  "ignore": [
+    "test",
+    ".*",
+    "*.json",
+    "*.md",
+    "*.txt",
+    "Gruntfile.js"
+  ],
   "devDependencies": { }
 }
